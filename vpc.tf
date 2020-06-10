@@ -1,5 +1,5 @@
 module "vpc" {
-  source  = "terraform-aws-modules/vpc/aws"
+  source  = "app.terraform.io/PatrickWalsh-training/vpc/aws"
   version = "2.35.0"
 
   name = "my-vpc"
